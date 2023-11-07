@@ -9,7 +9,7 @@
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  background-color: rgba(242, 242, 242, 0.912);
+  background-color: rgba(242, 242, 242, 0.758);
 }
 
 .navigation {
@@ -27,7 +27,7 @@ body {
 }
 
 .tittle {
-  margin: 1rem 27%;
+  margin: 2rem 0;
   display: flex;
   align-items: center;
   background: linear-gradient(180deg, #9f4147 0%, #bf7083 100%);
@@ -47,11 +47,18 @@ img {
   margin-right: 2rem;
 }
 
+.contenido {
+  max-width: 60rem;
+  align-items: center;
+  justify-content: center;
+  display: inline-flexbox;
+  margin: auto;
+}
+
 .productCar {
   display: flex;
   align-items: center;
-  justify-content: center;
-  background-color: #f8f8f8;
+  background-color: #fff;
   border-radius: 1rem;
   padding: 1rem;
   max-width: fit-content;
@@ -65,7 +72,7 @@ img {
   font-size: 1.3rem;
 }
 
-.align .price {
+.price {
   margin-right: 2rem;
   font-weight: 700;
   background: linear-gradient(180deg, #9f4147 0%, #bf7083 100%);
@@ -84,6 +91,7 @@ img {
   font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 24;
   font-size: 2rem;
   margin-left: 2rem;
+  margin-right: 2rem;
   background: linear-gradient(180deg, #9f4147 0%, #bf7083 100%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -94,9 +102,7 @@ img {
   display: flex;
   justify-content: space-around;
   margin: 1rem 2rem;
-  
 }
-
 
 .quantity__minus,
 .quantity__plus {
@@ -108,7 +114,6 @@ img {
 
 .quantity__minus {
   border-radius: 0.6rem 0 0 0.6rem;
-
 }
 
 .quantity__plus {
@@ -116,11 +121,40 @@ img {
 }
 
 .quantity__input {
-    width: 3rem;
+  width: 3rem;
   padding: 0.5rem;
   text-align: center;
   border: none;
   border: 0.3rem solid transparent;
   border-image: linear-gradient(180deg, #9f4147 0%, #bf7083 100%) 1;
-    font-size: 1rem;
+  font-size: 1rem;
 }
+
+.total-price {
+  display: flex;
+  margin-left: auto;
+  max-width: fit-content;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #fff;
+  margin-top: 1rem;
+  padding: 1rem 1rem 1rem 2rem;
+  border-radius: 1rem;
+}
+
+.title-price {
+  margin-right: 8rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.align-price {
+  display: flex;
+  font-size: 1.3rem;
+  margin-right: 11rem;
+}
+
+.align-price .price{
+  margin-right: 7rem;
+}
+
