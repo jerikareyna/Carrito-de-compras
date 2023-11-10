@@ -160,3 +160,23 @@ img {
   margin-right: 7rem;
 }
 
+.finalizar-compra p{
+  display: flex;
+  margin-left: auto;
+  max-width: fit-content;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #bf7083;
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: background-color 200ms ease-out;
+}
+
+.finalizar-compra p:hover{
+  background-color: #9f4147;
+}
