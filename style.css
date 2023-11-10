@@ -63,6 +63,7 @@ img {
   padding: 1rem;
   max-width: fit-content;
   margin: auto;
+  margin-bottom: 1rem;
 }
 
 .align {
@@ -96,6 +97,7 @@ img {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  cursor: pointer;
 }
 
 .quantity {
